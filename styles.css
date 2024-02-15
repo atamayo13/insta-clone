@@ -1,0 +1,58 @@
+* {
+    box-sizing:
+     border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+  .protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.instagramContainer{
+display: flex;
+justify-content: flex-start;
+
+}
+
+.pfp{
+    img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+      }
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.lower_header{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+
+}
+
+.center_stage{
+    img{
+width: 2000px;
+height: 2000px;
+    }
+
+display: flex;
+justify-content: center;
+}
+
+
+.footer-icons{
+display: flex;
+justify-content: space-around;
+}
